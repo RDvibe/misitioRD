@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Sitio de Arte Generativo</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tu Sitio de Arte Generativo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container text-center">
+      <h1>Bienvenido a mi Sitio de Arte Generativo</h1>
+      <p>Explora obras de arte generativo y textos poéticos generativos</p>
+      <a href="#gallery" class="btn btn-primary">Ver Galería</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Sobre Mí</h2>
+          <p>Aquí puedes proporcionar información sobre ti y tu enfoque artístico generativo.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="C:\Users\Ricardo Ruiz\Desktop\Downloads\RD_art_Psycho_dope_dream_portrait_of_junkie_acid_man_drinking_c_e4968e1d-2194-4beb-a15b-bafb931177ab.png" alt="Imagen de Perfil" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería Section -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="row">
+        <!-- Aquí puedes mostrar tus obras de arte generativo utilizando componentes de Bootstrap como "card" o "carousel" -->
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\Ricardo Ruiz\Desktop\Downloads\RD_art_studio_photo_of_an_psycho_junkie_anarchist_with_hood_lon_1ecc8e38-95fa-4399-ae3d-afc9eabdd1ae - copia.png" alt="Obra de Arte 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Obra de Arte 1</h5>
+              <p class="card-text">Descripción de la obra de arte.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\Ricardo Ruiz\Desktop\Downloads\RD_art_studio_photo_of_an_psycho_junkie_anarchist_with_hood_lon_9bc43adf-3e4e-4389-849a-7d9283ce9a46 - copia.png" alt="Obra de Arte 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Obra de Arte 2</h5>
+              <p class="card-text">Descripción de la obra de arte.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="C:\Users\Ricardo Ruiz\Desktop\Downloads\RD_art_dabney_reggae_infused_visuals_in_the_style_of_dadaist_ph_83c5fcdc-9011-45fe-b21f-3bd1904ac6b5 - copia.png" alt="Obra de Arte 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Obra de Arte 3</h5>
+              <p class="card-text">Descripción de la obra de arte.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Puedes proporcionar información de contacto para que los visitantes puedan comunicarse contigo.</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Tu email">
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3 text-center">
+    <div class="container">
+      <p>Derechos de Autor &copy; 2023 | Tu Sitio de Arte Generativo</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
